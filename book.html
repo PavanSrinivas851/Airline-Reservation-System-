@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Airways reservation system</title>
+<style>
+body
+{
+    background-image:url('1.jpg');
+   background-size:cover;
+}
+h1
+{
+   color:white;
+}
+input,select
+{
+  width:40%;
+  margin:0px 0px 0px 100px;
+  padding:10px;
+border:3px solid #086783  ;
+background-color:#B2E3F2;
+color:#0F217C;
+font-size:18px;
+border-radius:20px;
+
+}
+
+input[type=submit]
+{
+background-color:#0F217C;
+color: #B2E3F2;
+}
+            
+  nav { width:100%;
+    height:80px;
+    background-color:#0001;
+    
+    line-height: 50px;
+   
+            }
+            nav ul{
+                float: right;
+                margin-right:30px
+            }
+            nav ul li{
+                list-style-type: none;
+                display:inline-block;
+                transition: 0.8s all;
+                
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: #fff;
+                padding: 40px;
+            }
+            nav ul li:hover{
+                background-color: #f39d1a;
+            }
+
+</style>
+</head>
+<body>
+ <nav>
+        
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="add.html">AddFlight</a></li>
+            <li><a href="vf.html">ViewFlights</a></li>
+            <li><a href="del1.html">DeleteFlights</a></li>
+            <li><a href="update.html">UpdateFlights</a></li>
+            <li>
+            	<a href="login.html">BookFlights</a>
+            </li>
+            
+        </ul>
+    </nav>
+<h1 align=center>Book Flight</h1>
+<hr><br><br><br>
+<form action="home.html" method=get align=center>
+<input type=text placeholder="Enter your name" name=un><br><br>
+<input type=number placeholder="Enter your mobile" name=ph><br><br>
+<input type=email placeholder="Enter your email-id" name=em><br><br>
+<select>
+<option>Indian Airways</option>
+<option>Spice Jet</option>
+<option>Indigo</option>
+<option>Air Indian</option>
+<option>Indigo Nation</option>
+</select><br><br>
+<input type=date name=dt><br><br>
+<input type=number name=no placeholder="Number of seats"><br><br>
+<input type=submit value="Book Flight" ><br><br>
+</form>
+</body>
+
+</html>
